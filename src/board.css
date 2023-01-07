@@ -1,0 +1,21 @@
+.board{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.board .boxBoard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.boxBoard .boardrow{
+    display: flex;
+}
+
+.board .heading{
+    position: absolute;
+    top: 5%;
+    font-size: 2rem;
+}
