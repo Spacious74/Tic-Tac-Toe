@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Short+Stack&display=swap');
 .board{
     display: flex;
     flex-direction: column;
@@ -9,6 +10,8 @@
     align-items: center;
     justify-content: center;
     flex-direction: column;
+    z-index: 10;
+    background-color: transparent;
 }
 .boxBoard .boardrow{
     display: flex;
@@ -16,6 +19,21 @@
 
 .board .heading{
     position: absolute;
-    top: 5%;
+    top: 10%;
     font-size: 2rem;
+    font-family: 'Short Stack';
+    font-weight: bold;
+}
+
+.board .restartBtn{
+    font-size: 1.2rem;
+    padding: 10px;
+    font-weight: bolder;
+    position: absolute;
+    bottom: 13%;
+}
+.gifAnimation{
+    position: absolute;
+    top: 0%;
+    background-color: black;
 }
